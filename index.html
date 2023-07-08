@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+   <a-scene background="color: #000000">
+
+    <!--Camera-->
+    <a-entity position="0.5 0 15">
+        <a-camera></a-camera>
+    </a-entity>
+
+    <a-sky src="https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sb3IlMjB0ZXh0dXJlfGVufDB8fDB8fHww&w=1000&q=80">
+    </a-sky>
+
+    <a-plane id="floor" position="-0.2 -2 0" rotation="-75 0 0" width="25" height="11" src="https://www.astekhome.com/cdn/shop/products/2765-BW40706_marmor_brown_marble_texture_wallpaper_MARMORBROWNMARBLETEXTUREWALLPAPER_400x400.jpg?v=1634322677"></a-plane>
+
+    <a-plane id="carpet" position="-0.2 -1.8 1.25" rotation="-75 0 0" width="10" height="6" src="https://designshack.net/wp-content/uploads/abstract-background.jpg"></a-plane>
+
+    <a-entity>
+        <a-box position="-0.2 6.85 -6.5" src="https://img.rawpixel.com/private/static/images/website/2022-05/pf-s125-ake7005-a.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=ac5ca8cb135fcaf792a495cc91808b1c" depth="2" height="15" width="25" ></a-box>
+    </a-entity>
+
+    <a-entity>
+        <a-box position="-8 7 -5.55" src="https://cdna.artstation.com/p/assets/images/images/047/403/396/large/leonid-afremov-kaleidoscope-of-love-oil-painting-on-canvas.jpg?1647509210" depth="0.5" height="8" width="5" ></a-box>
+
+        <a-box position="-0.25 7 -5.55" src="https://media.nga.gov/iiif/67227693-04b6-42af-ae3d-ea3229d5e14a/full/!588,600/0/default.jpg" depth="0.5" height="8" width="5" ></a-box>
+ 
+        <a-box position="8 7 -5.55" src="https://previews.123rf.com/images/weris7554/weris75542007/weris7554200700046/151871820-painterly-abstract-mix-canvas-surface-wall-painting-vertical-oil-painting-color-texture-modern.jpg" depth="0.5" height="8" width="5" ></a-box>
+    </a-entity>
+
+    <a-entity>
+        <a-cylinder position="-0.2 8 3" height="2.5" radius="0.2" src="https://m.media-amazon.com/images/I/610yA0FqLRL.jpg"></a-cylinder>
+        <a-cone position="-0.2 6.5 3" rotation="10 0 0" radius-bottom="2" radius-top="0.25" src="https://m.media-amazon.com/images/I/610yA0FqLRL.jpg"></a-cone>
+        <a-sphere position="-0.2 5.9 3" radius="1.02" src="https://t4.ftcdn.net/jpg/00/64/79/51/360_F_64795156_hqIWIuQXhwRNpOKOHKLinOzzhV08C3Hk.jpg"></a-sphere>
+    </a-entity>
+
+    <a-entity>
+        <a-cylinder position="-0.2 -1 2" height="2" radius="1" src="https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGluayUyMG1hcmJsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"></a-cylinder>
+        <a-box position="-0.15 0.5 4.5" rotation="-80 0 0" src="https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGluayUyMG1hcmJsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" depth="0.15" height="3" width="8" ></a-box>
+    </a-entity>
+
+    <a-entity>
+        <a-cylinder position="-7.8 -1 2.5" height="1.85" radius="0.2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVaEzZNVS2RHcdtaJ5qpuyWO3D-Kfj3Z6_1Wv4YzqIjWV-hG8XWT-OMwYciCI392D8gq4&usqp=CAU"></a-cylinder>
+        <a-cylinder position="-7.8 0.15 2.5" height="0.2" radius="1.5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVaEzZNVS2RHcdtaJ5qpuyWO3D-Kfj3Z6_1Wv4YzqIjWV-hG8XWT-OMwYciCI392D8gq4&usqp=CAU"></a-cylinder>
+    </a-entity>
+
+    <a-entity>
+        <a-cylinder position="7 -1 2.5" height="1.85" radius="0.2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVaEzZNVS2RHcdtaJ5qpuyWO3D-Kfj3Z6_1Wv4YzqIjWV-hG8XWT-OMwYciCI392D8gq4&usqp=CAU"></a-cylinder>
+        <a-cylinder position="7 0.15 2.5" height="0.2" radius="1.5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVaEzZNVS2RHcdtaJ5qpuyWO3D-Kfj3Z6_1Wv4YzqIjWV-hG8XWT-OMwYciCI392D8gq4&usqp=CAU"></a-cylinder>
+    </a-entity>
+
+    </a-scene>
+</body>
+</html>
